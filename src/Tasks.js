@@ -62,7 +62,7 @@ function Tasks() {
       if (response.status === 200) {
         setOpen(false);
         // alert('admin log out seccessfully');
-        toast.success("Admin log out successfully", {
+        toast.success("User log out successfully", {
           position: "top-center",
           autoClose: 2000,
         });
